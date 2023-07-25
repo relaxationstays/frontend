@@ -1,0 +1,241 @@
+.mainImg {
+  /* height: 20vh; */
+  margin-top: 10vh;
+  /* background-color: green; */
+}
+.imgTabX {
+  height: 60vh;
+  width: 100%;
+  /* background-color: lightgrey; */
+}
+.imgTabX img {
+  width: 100%;
+  object-fit: cover;
+  height: 95%;
+  border-top-left-radius: 10px; /* only if you want fixed height */
+  border-bottom-left-radius: 10px; /* only if you want fixed height */
+}
+.imgtry {
+  height: 30vh;
+  width: 100%;
+  /* background-color: lightgrey; */
+}
+.imgtry img {
+  width: 100%;
+  object-fit: cover;
+  height: 90%;
+  /* margin: 10px;   */
+}
+
+.cur {
+  border-top-right-radius: 10px; /* only if you want fixed height */
+  /* border-bottom-right-radius: 10px; */
+  /* margin: 10px;   */
+}
+.cur2 {
+  /* border-top-right-radius: 10px; only if you want fixed height */
+  border-bottom-right-radius: 10px;
+  /* margin: 10px;   */
+}
+
+.downsection {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+.downsection .col {
+  /* border: 1px solid grey; */
+}
+.mainImg h2 {
+  font-weight: bold;
+  font-size: 20px;
+}
+.pages {
+  padding: 10px;
+
+  align-items: center;
+}
+.pages label {
+  margin-left: 60px;
+  position: relative;
+  font-weight: 600;
+}
+.pages ion-icon {
+  position: absolute;
+  margin-left: -30px;
+  margin-top: -1px;
+  font-size: 20px;
+  /* margin-left: 20px; */
+}
+.gg ion-icon {
+  position: absolute;
+  margin-left: -30px;
+  margin-top: -1px;
+  font-size: 20px;
+  /* margin-left: 20px; */
+}
+.categories ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  margin-left: 20px;
+}
+.categories ul li {
+  margin: 0;
+  padding: 0;
+  width: 20%;
+}
+.datainput .tab {
+  margin-top: 20px;
+  margin-left: 50px;
+  position: relative;
+}
+.datainput {
+  /* width: 55%; */
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.datainput ion-icon {
+  position: absolute;
+  font-size: 50px;
+  margin-left: -60px;
+}
+.singlePage {
+  width: 80%;
+  margin: auto;
+}
+
+.fixedto {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.fixedto li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.fixedto li:nth-child(1) {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 65%;
+}
+.avaliability ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.avaliability ul li {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  /* margin: 10px; */
+}
+.avaliability ul li label {
+  padding: 10px;
+}
+.avaliability ul li p {
+  /* display: block; */
+  margin: 0;
+  padding: 10;
+}
+.avaliability ul li input {
+  /* margin: 0; */
+  padding: 10;
+  margin: 30px;
+  margin-top: 20px;
+}
+#thing_to_stick {
+  position: sticky;
+  top: 10vh;
+  /* height: 50vh; */
+  width: 350px;
+  /* background-color: green; */
+  margin: auto;
+  box-shadow: -3px 0px 31px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -3px 0px 31px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -3px 0px 31px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 20px;
+  border-radius: 1px solid grey;
+  padding: 15px;
+  display: block;
+  margin-left: 100px;
+}
+#thing_to_stick h4 {
+  font-size: 20px;
+  font-weight: bold;
+  /* background: green; */
+}
+#thing_to_stick button {
+  margin: 20px;
+  width: 90%;
+  color: white;
+  background: rgb(172, 34, 195);
+  background: linear-gradient(
+    0deg,
+    rgba(172, 34, 195, 1) 0%,
+    rgba(46, 2, 30, 1) 100%
+  );
+}
+.rowdb {
+  margin: 0;
+  padding: 0;
+}
+.rowdb .col {
+  margin: 0;
+  padding: 0;
+}
+.rowdb .col {
+  margin: 0;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+.rowdb .col input {
+  margin-left: 30px;
+}
+.rowdb .col:nth-child(1) {
+  margin: 0;
+  padding: 0px;
+}
+.fixedDiv {
+  display: none;
+}
+@media only screen and (orientation: portrait) {
+  .fixedDiv {
+    position: fixed;
+    /* height: 10vh; */
+    background-color: aliceblue;
+    border: 1px solid grey;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+    z-index: 100;
+  }
+  .fixedDiv ion-icon {
+    font-size: 20px !important;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+  }
+  .fixedDiv button {
+    margin-left: 40px;
+    margin-top: -20px;
+  }
+  #thing_to_stick {
+    display: none;
+  }
+  .fixedto li:nth-child(1) {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+  }
+  .amdatacol {
+    display: none !important;
+  }
+}

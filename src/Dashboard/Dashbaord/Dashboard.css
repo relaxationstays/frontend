@@ -1,0 +1,80 @@
+.dash {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+.profile ion-icon:nth-child(1) {
+  background-color: lightgrey;
+  padding: 5px;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: -40px;
+}
+.profile ion-icon:nth-child(2) {
+  background-color: lightgrey;
+  padding: 5px;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: 20px;
+}
+.profile {
+  padding: 10px;
+  width: 40%;
+  background-color: aliceblue;
+  border-radius: 30px;
+  float: right;
+}
+.minimenu {
+  display: flex;
+  flex-wrap: wrap;
+  /* background-color: aquamarine; */
+  width: 50%;
+  margin: auto;
+}
+.minimenu div {
+  width: 30%;
+  background-color: lightgray;
+  padding: 10px;
+  text-align: center;
+  margin: 10px;
+  border-radius: 30px;
+}
+.minimenu div ion-icon {
+  position: absolute;
+  margin-left: -30px;
+  margin-top: 3px;
+}
+.databooks {
+  /* height: 8vh; */
+  background: lightgrey;
+  width: 70%;
+  margin: auto;
+  border-radius: 10px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+.dashb {
+  margin-bottom: 20vh;
+}
+.board {
+  margin-top: 20vh;
+}
+.databooks .col {
+  /* display: flex; */
+  align-items: center;
+  /* margin-top: 15px; */
+}
+.amenetiespan label {
+  background-color: white;
+  text-align: center;
+  margin: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+}
+.bookbutton {
+  margin-top: 20px;
+}
+.bookbutton button {
+  border: none;
+  padding: 10px;
+}

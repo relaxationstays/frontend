@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+
+.tabsesctiom {
+  /* border: 1px solid lightgrey; */
+  background-color: white;
+  /* padding: 15px; */
+  padding-top: 15px;
+  /* padding-bottom: 15px; */
+  padding-left: 15px;
+  margin: 10px;
+  border-radius: 10px;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+}
+.htname {
+  font-weight: bold;
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.tabsesctiom h3 {
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 15px;
+}
+.htn ion-icon {
+  color: rgb(235, 158, 51);
+  font-weight: bold;
+}
+
+.htn {
+  /* margin-bottom: 10px; */
+}
+.smallgreen {
+  color: "green";
+  font-size: 14px;
+}
+
+.picon ion-icon {
+  position: absolute;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 5px;
+  margin-left: -25px;
+}
+.picon label {
+  margin-right: 10px;
+  margin-left: 17px;
+  font-size: 15px;
+}
+.smallgreen {
+  color: green;
+  font-weight: 500;
+}
+.floatcenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+.floatcenter h5 {
+  margin: 0;
+  padding: 0;
+
+  text-align: center;
+  font-weight: bold;
+}
+.floatcenter p {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.floatcenter h4 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-weight: bold;
+}
+.bluewish {
+  background-color: rgb(220, 237, 245);
+}
+.prisum {
+  padding-left: 30px;
+}
+.prisum ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  padding-left: 20px;
+  list-style: none;
+}
+.prisum ul li {
+  /* display: flex; */
+  margin: 0;
+  padding: 0;
+}
+.prisum ul li:nth-child(1) {
+  width: 65%;
+}
+.prisum ul li:nth-child(2) {
+  width: 40%;
+  text-align: right;
+}
+.prisum p {
+  padding: 0;
+  margin: 0;
+}
+.checki_ ion-icon {
+  font-size: 24px;
+  position: absolute;
+  margin-left: -30px;
+}
+.tabsesctiom ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.tabBoards img {
+  border-radius: 10px;
+}
+.checki_ ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.checki_ ul li {
+  margin: 0;
+  padding: 0;
+}
+.checki_ ul li:nth-child(1) {
+  margin: 0;
+  padding: 0;
+  width: 10%;
+}
+.txbx input {
+  height: 30px;
+  width: 30px;
+}
+.nextfinal button {
+  width: 20%;
+  background-color: rgb(27, 184, 228);
+  margin: 30px;
+  border: none;
+}

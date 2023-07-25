@@ -1,0 +1,277 @@
+@import url("https://fonts.googleapis.com/css2?family=Caprasimo&display=swap");
+.imagesidePromo {
+  height: 300px;
+  background-color: rgb(245, 237, 244);
+  border-radius: 10px;
+  margin: 10px;
+}
+.promotabs {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  flex-wrap: wrap;
+}
+.promotabs li {
+  width: 250px;
+  position: relative;
+  /* background-color: green; */
+}
+
+.promteam label {
+  font-size: 13px;
+}
+.promteam button {
+  background-color: brown;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  padding: 5px;
+  width: 75%;
+  margin-top: 14px;
+}
+.promoHotel {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  flex-wrap: wrap;
+}
+.promoHotel li {
+  width: 420px;
+  position: relative;
+  /* background-color: gold; */
+  margin-bottom: 40px;
+}
+.imagetab {
+  width: 100%;
+  height: 150px;
+  background-color: aliceblue;
+  position: relative;
+  margin-bottom: 8px;
+  border-radius: 10px;
+}
+.imagetabR img {
+  /* height: 320px; */
+  width: 100%;
+  height: 200px;
+}
+.imagetaxx {
+  width: 100%;
+  height: 150px;
+  background-color: aliceblue;
+  position: relative;
+  margin-bottom: 8px;
+  border-radius: 10px;
+}
+.htt label {
+  color: grey;
+  font-size: 12px;
+  font-weight: bold;
+}
+.htt label ion-icon {
+  margin-right: 5px;
+  font-weight: bold;
+  font-size: 14px;
+}
+.htt .float {
+  position: absolute;
+
+  margin-top: -40px;
+  margin-left: 45%;
+  color: rgb(137, 14, 14);
+  font-weight: bold;
+  text-align: right;
+  width: 146px;
+}
+.htt p {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  font-size: 13px;
+}
+.htt {
+  padding: 10px;
+}
+.linethro {
+  text-decoration: line-through;
+  color: rgb(193, 13, 13);
+}
+/* .imagetab .imtab {
+  position: relative;
+  width: 85%;
+  height: 100%;
+  border-radius: 15px;
+} */
+.specialimgtab {
+  position: relative;
+  width: 100%;
+  height: 156px !important;
+  border-radius: 0px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.imagetab {
+  position: relative;
+}
+.stspecial {
+  font-weight: bold;
+  padding-top: 10px;
+}
+.promteam {
+  /* background-color: red; */
+  position: absolute;
+  margin-top: -45%;
+  width: 80%;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  background-color: #ffffff05;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(25px);
+  margin-left: 20px;
+}
+a {
+  text-decoration: none;
+}
+.biggerBg {
+  height: 40vh;
+  margin: 0;
+  padding: 0;
+}
+.biggerBg .tt {
+  background-color: green;
+}
+.biggerBg .col {
+  margin: 0;
+  padding: 0;
+  /* padding: 70px; */
+}
+.co {
+  display: flex;
+  align-items: last baseline;
+  border-radius: 10px;
+
+  /* color: white; */
+}
+.co h3 {
+  font-family: "Caprasimo", cursive;
+  padding-left: 20px;
+  background-color: white;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding-right: 30px;
+
+  /* width: 40%; */
+}
+.tabtt {
+  height: 48.5%;
+  width: 96%;
+  margin: auto;
+  border-radius: 10px;
+  /* margin: 10px; */
+}
+.tabspecial ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.tabspecial ul li {
+  width: 33.33%;
+}
+.tabspecial ul li .row {
+  margin: 10px;
+  border: 1px solid lightgrey;
+  padding: 0;
+}
+.bor {
+  /* border: 1px solid grey; */
+  padding: 10px;
+  position: relative;
+}
+.bor img {
+  border-radius: 10px;
+}
+.bann {
+  background-image: url("../../img/banner.png");
+  background-size: 100% 100%;
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+.bann2 {
+  background-image: url("../../img/bann2.jpg");
+  background-size: 100% 100%;
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+.hotelTabName {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+}
+.tit {
+  background-image: url("../../../public/img/sp/studio.jpg");
+  background-size: cover;
+}
+.tit1 {
+  background-image: url("../../../public/img/sp/onebed.jpg");
+  background-size: cover;
+}
+.tit2 {
+  background-image: url("../../../public/img/sp/twobed.jpg");
+  background-size: 100% 100%;
+}
+.tit3 {
+  background-image: url("../../../public/img/sp/villa.png");
+  background-size: cover;
+}
+.hotelTabName h5 {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+.special {
+  margin: 0;
+  padding: 0;
+}
+.special .col {
+  margin: 0;
+  padding: 0;
+}
+.tt img {
+  width: 100%;
+  height: 100%;
+}
+@media only screen and (orientation: portrait) {
+  .promoHotel li {
+    width: 50% !important;
+    position: relative;
+    padding: 4px;
+    /* background-color: green; */
+  }
+  .imagetab .imtab {
+    position: relative;
+    width: 120% !important;
+    height: 100%;
+    border-radius: 15px;
+    background-color: green;
+  }
+  .bor {
+    border: 1px solid lightgrey;
+    /* padding: 5px; */
+    border-radius: 14px;
+  }
+  .imageside {
+    height: 300px;
+    background-color: rgb(245, 237, 244);
+    border-radius: 10px;
+    margin: 10px;
+  }
+  .promotabs li {
+    width: 230px !important;
+    position: relative;
+    /* background-color: green; */
+  }
+}

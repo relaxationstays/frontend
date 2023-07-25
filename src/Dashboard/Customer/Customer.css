@@ -1,0 +1,124 @@
+.sidebar {
+  position: fixed;
+  /* background-color: antiquewhite; */
+  height: 100vh;
+  width: 15%;
+  border-right: 1px solid lightgrey;
+  padding-top: 10vh;
+}
+.selecttabs {
+  padding: 10px;
+}
+.selecttabs ion-icon {
+  font-weight: bold;
+  font-size: 30px;
+}
+.sideActive {
+  background-color: lightgrey;
+  border-left: 3px solid green;
+}
+/* ------------------------------Customer------------------------------------------------- */
+
+.dashbaordside {
+  padding-top: 5vh;
+  margin-left: 20%;
+  padding: 30px;
+}
+.uplist {
+  margin-bottom: 40px;
+}
+
+.uplist ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.uplist ul li div {
+  box-shadow: -3px -1px 13px 0px rgba(194, 194, 194, 0.75);
+
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.uplist ul li {
+}
+.uplist ul li {
+  flex: 1;
+  text-align: center;
+}
+.topd ion-icon {
+  font-weight: bold;
+  position: absolute;
+  font-size: 40px;
+  margin-left: -60px;
+}
+
+.table {
+  box-shadow: -3px -1px 13px 0px rgba(194, 194, 194, 0.75);
+  border: 1px solid grey;
+}
+.imageside {
+  height: 80px;
+  width: 80px;
+  border: 1px dotted grey;
+  border-radius: 50%;
+}
+.lbook ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.lbook ul li:nth-child(1) {
+  /* background-color: green; */
+  width: 20%;
+}
+.lbook ul li:nth-child(2) {
+  /* background-color: green; */
+  width: 70%;
+}
+.lbook ul li:nth-child(3) {
+  /* background-color: green; */
+  width: 30%;
+}
+.lbook label {
+  padding: 10px;
+  background-color: green;
+  width: 70%;
+  padding-left: 30px;
+  color: white;
+}
+.mainbg {
+  /* padding: 20px; */
+  box-shadow: -3px -1px 13px 0px rgba(194, 194, 194, 0.75);
+}
+.mainbg h3 {
+  padding: 10px;
+}
+.topblur {
+  background-color: lightgrey;
+  padding: 10px;
+  font-weight: bold;
+}
+.topblur h3 {
+  font-weight: bold;
+}
+.chatdiv {
+  padding-left: 100px;
+}
+.chatdiv ion-icon {
+  position: absolute;
+  font-size: 60px;
+  margin-left: -80px;
+}
+.chatdiv {
+  border: 1px dotted grey;
+  font-weight: 10px;
+  /* padding: 10px; */
+}
+.chatdiv span {
+  font-weight: bold;
+}

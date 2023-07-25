@@ -1,0 +1,120 @@
+.header button {
+  margin-left: 10px;
+  font-size: 14px;
+  height: 40px;
+  width: 40%;
+  border: 0px;
+}
+.updatax ul {
+  display: flex;
+  list-style: none;
+  height: 40px;
+  margin-top: 20px;
+  /* background-color: red; */
+  width: 100%;
+}
+.updatax ul li {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.header .col {
+  display: flex;
+  align-items: center;
+}
+.header {
+  /* background-color: #eff8fa; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-bottom: 1px solid lightgrey;
+  z-index: 110 !important;
+  /* color: white; */
+}
+.header a {
+  color: black !important;
+}
+.uldas ul {
+  background-color: lightgrey;
+  width: 100%;
+  padding: 20px;
+  height: 40px !important;
+  border-radius: 20px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.uldas ul li {
+  flex: 1;
+}
+.uldas ion-icon:nth-child(1) {
+  background-color: white;
+  position: absolute;
+  /* height: 30px;
+  width: 30px; */
+  padding: 10px;
+  border-radius: 50%;
+  margin-top: -5px;
+  margin-left: -40px;
+  /* background-color: green; */
+}
+.uldas ion-icon:nth-child(2) {
+  background-color: white;
+  position: absolute;
+  /* height: 30px;
+  width: 30px; */
+  padding: 10px;
+  border-radius: 50%;
+  margin-top: -5px;
+  margin-left: 10px;
+}
+.tabs {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.tabs div {
+  width: 100%;
+}
+.tabs ion-icon {
+  position: absolute;
+  font-size: 20px;
+  margin-left: -25px;
+}
+.tabs label {
+  padding-left: 35px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-right: 10px;
+}
+.tabs label:nth-child(1) {
+  background-color: rgb(14, 1, 14);
+  color: white;
+  font-size: 13px;
+  /* border: 1px solid rgb(240, 230, 240); */
+  border-radius: 10px;
+}
+.tabs label:nth-child(2) {
+  background-color: rgb(14, 1, 14);
+  color: white;
+  font-size: 13px;
+  /* border: 1px solid rgb(240, 230, 240); */
+  border-radius: 10px;
+}
+.tabs label:nth-child(3) {
+  background-color: rgb(14, 1, 14);
+  color: white;
+  font-size: 13px;
+  /* border: 1px solid rgb(240, 230, 240); */
+  border-radius: 10px;
+}
+.tabs label:nth-child(4) {
+  background-color: rgb(14, 1, 14);
+  color: white;
+  font-size: 13px;
+  /* border: 1px solid rgb(240, 230, 240); */
+  border-radius: 10px;
+}

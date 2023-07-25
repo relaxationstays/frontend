@@ -1,0 +1,215 @@
+.imgdiv {
+  /* height: 180px; */
+  background: lightgrey;
+  height: 100%;
+}
+.iconDx ion-icon {
+  font-size: 15px;
+  margin-left: 20px;
+  font-weight: bold;
+  color: grey;
+}
+.iconDx span {
+  font-size: 13px;
+  font-weight: bold;
+  color: grey;
+}
+.tabsLib h2 {
+  font-size: 14px;
+  font-weight: bold;
+}
+.tabsLib p {
+  font-size: 14px;
+  /* font-weight: bold; */
+}
+.sming {
+  display: none;
+}
+.tabsLib h4 {
+  font-size: 14px;
+  /* font-weight: bold; */
+  font-weight: bold;
+  color: grey;
+  font-weight: 600;
+}
+
+.contacticon ion-icon {
+  font-size: 25px;
+  background-color: rgb(244, 224, 224);
+  color: brown;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 7px;
+}
+.lis h5 {
+  font-weight: 300;
+  font-size: 13px;
+  color: grey;
+  margin-top: 25px;
+}
+.lis col {
+  display: flex;
+  justify-content: center;
+}
+.pricetag {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  /* line-break: 1px; */
+}
+.pricetag div {
+  line-height: 15px;
+  background-color: aliceblue;
+  width: 100%;
+  padding: 10px;
+}
+.topdiv {
+  background-color: aliceblue;
+  margin-bottom: 50px;
+  position: sticky;
+  height: 25vh;
+  top: 0vh;
+  padding-top: 8vh;
+  /* background-color: aqua; */
+  z-index: 99;
+}
+.linethrou {
+  text-decoration: line-through;
+  font-size: 15px;
+  color: red;
+}
+/* .topdiv{
+  position: sticky;
+  top: 0px;
+} */
+.topdiv {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.topdiv ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  /* background-color: green; */
+  width: 60%;
+}
+.topdiv ul li {
+  flex: 1;
+  position: relative;
+}
+.topdiv label {
+  display: block;
+}
+.topdiv input {
+  height: 50px;
+  border: 1px lightgrey;
+  width: 96%;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 12px;
+}
+.topdiv ion-icon {
+  position: absolute;
+  font-size: 25px;
+  margin-left: -90%;
+  margin-top: 10px;
+}
+.side ul {
+  list-style: none;
+}
+.side input {
+  margin-right: 10px;
+  height: 10px;
+  width: 10px;
+}
+.side {
+  font-size: 12px;
+}
+.side span {
+  font-weight: bold;
+}
+.smimg {
+  display: none;
+}
+.booknow {
+  background: linear-gradient(
+    0deg,
+    rgba(172, 34, 195, 1) 0%,
+    rgba(253, 45, 70, 1) 100%
+  );
+  color: white;
+  width: 60%;
+  border-radius: 8px;
+  border: none;
+  margin-left: -8.5%;
+  margin-top: 10px;
+}
+.revi span {
+  font-weight: bold;
+}
+.looking{
+  font-size: 12px;
+  color: red;
+  margin-top: 15px;
+}
+
+.circle {
+  position: absolute;
+  background-color: blue;
+  height: 35px;
+  width: 35px;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  font-size: 13px;
+  padding: 7px;
+  margin-top: -55px;
+  margin-left: 115px;
+  color: white;
+  font-weight: bold;
+}
+@media only screen and (orientation: portrait) {
+  .side {
+    display: none;
+  }
+  .bgimg {
+    display: none;
+  }
+  .smimg {
+    display: block;
+  }
+  .contacticon {
+    /* background-color: aqua; */
+    width: 45%;
+    display: flex;
+    margin: auto;
+  }
+  .topdiv ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    /* background-color: green; */
+    width: 100%;
+  }
+  .topdiv {
+    background-color: aliceblue;
+    /* margin-bottom: 50px; */
+    position: fixed;
+    width: 100%;
+    height: 10vh;
+    /* top: 0vh; */
+    /* padding-top: 8vh; */
+    /* background-color: aqua; */
+    z-index: 99;
+    bottom: 0;
+    margin-top: 90vh;
+    padding: 0;
+    border: 1px solid grey;
+  }
+  .loc {
+    display: none;
+  }
+}

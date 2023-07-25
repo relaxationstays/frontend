@@ -1,0 +1,95 @@
+.imageside {
+  height: 300px;
+  background-color: rgb(245, 237, 244);
+  border-radius: 10px;
+  margin: 10px;
+}
+.promotabs {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  flex-wrap: wrap;
+}
+.promotabs li {
+  width: 250px;
+  position: relative;
+}
+
+.promteam label {
+  font-size: 13px;
+}
+.promteam button {
+  background-color: brown;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  padding: 5px;
+  width: 75%;
+  margin-top: 14px;
+}
+.promoHotel {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  flex-wrap: wrap;
+}
+.promoHotel li {
+  width: 320px;
+  position: relative;
+}
+.imagetab {
+  width: 80%;
+  height: 150px;
+  background-color: aliceblue;
+  position: relative;
+  margin-bottom: 8px;
+  border-radius: 10px;
+}
+.htt label {
+  color: grey;
+  font-size: 12px;
+  font-weight: bold;
+}
+.htt label ion-icon {
+  margin-right: 5px;
+  font-weight: bold;
+  font-size: 14px;
+}
+.htt h3 {
+  position: absolute;
+  /* background-color: green; */
+  margin-top: -40px;
+  margin-left: 60%;
+  color: rgb(137, 14, 14);
+  font-weight: bold;
+}
+.htt p {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  font-size: 13px;
+}
+.imagetab .imtab {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+.imagetab {
+  position: relative;
+}
+.promteam {
+  /* background-color: red; */
+  position: absolute;
+  margin-top: -45%;
+  width: 80%;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  background-color: #ffffff05;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(25px);
+  margin-left: 20px;
+}

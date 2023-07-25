@@ -1,0 +1,215 @@
+.main {
+  /* position: fixed; */
+  width: 100%;
+  height: 60vh;
+  top: 0;
+  /* background-color: aliceblue; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("https://assets.graydientcreative.com/files/outlets/marcus-hotels/Zoom-images/full-size/GGRS-Room.jpg")
+    no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  z-index: 100;
+}
+.listoption ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 40%;
+  position: absolute;
+
+  /* margin-left: 22.5%; */
+  left: 0;
+  left: 30%;
+  /* background-color: green; */
+  font-size: 13px;
+  margin: auto;
+  margin-top: -40px;
+}
+.listoption ul li {
+  flex: 1;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  /* background-color: green; */
+  padding: 10px;
+}
+.listoption ul li div {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  /* background-color: green; */
+  padding: 15px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 1px 2px 11px 0px rgba(211, 206, 206, 0.75);
+}
+
+.listoption {
+  padding: 30px;
+}
+.main input {
+  height: 50px;
+  outline: none;
+  padding-left: 20px;
+}
+.datamain {
+  /* background-color: green; */
+  width: 70%;
+}
+.btnx {
+  position: absolute;
+  margin-left: -6%;
+  margin-top: 1px;
+  width: 6%;
+  border: 1px solid lightgrey;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.inputboxMain {
+  background-color: white;
+  width: 75%;
+  margin: auto;
+  padding-top: 7px;
+  padding: 7px;
+  /* border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px; */
+  border-radius: 10px;
+  /* height: 15vh; */
+  padding-top: 2vh;
+  /* padding-bottom: 30px; */
+  box-shadow: 1px 2px 11px 0px rgba(211, 206, 206, 0.75);
+}
+.inputboxMain button {
+  background: linear-gradient(
+    0deg,
+    rgba(172, 34, 195, 1) 0%,
+    rgba(253, 45, 70, 1) 100%
+  );
+  color: white;
+  width: 8%;
+  border-radius: 8px;
+  margin-left: -8.5%;
+}
+.inputboxMain h3 {
+  padding: 0;
+  margin: 0;
+  padding-bottom: 12px;
+  font-weight: bold;
+}
+.inputboxMain p {
+  font-size: 11px;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+  padding-left: 10px;
+  color: black;
+}
+.inputboxMain label {
+  padding-left: 10px;
+  font-size: 23px;
+}
+.inputboxMain span {
+  padding-left: 10px;
+  font-size: 13px;
+  font-weight: normal;
+}
+.inputboxMain ul {
+  display: flex;
+  /* width: 50%; */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+  color: grey;
+}
+.inputboxMain ul li {
+  flex: 1;
+  padding: 0;
+  margin: 0;
+}
+.uptip {
+  text-transform: capitalize;
+}
+.inputboxMain ul li:nth-child(2) {
+  border-left: 1px solid lightgrey;
+  border-right: 1px solid lightgrey;
+}
+.inputboxMain ul li:nth-child(1) {
+}
+.box input {
+  padding-left: 30px;
+}
+
+.inputboxMain input {
+  width: 100%;
+  border: none;
+}
+
+.bgtime {
+  display: flex;
+  padding: 5px;
+  border: 1px solid grey;
+  /* height: 30px; */
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  width: 40px;
+  height: 30px;
+  padding: 10px;
+}
+.main h2 {
+  font-weight: bold;
+  margin-bottom: 30px;
+  /* background: rgb(172,34,195); */
+  background: linear-gradient(
+    0deg,
+    rgba(172, 34, 195, 1) 0%,
+    rgba(253, 45, 70, 1) 100%
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+@media only screen and (orientation: portrait) {
+  .inputboxMain {
+    /* background-color: green; */
+    width: 100%;
+  }
+  .datamain {
+    /* background-color: green; */
+    width: 100%;
+  }
+  .btnx {
+    position: absolute;
+    left: 0;
+    margin-top: 12%;
+    margin-left: 25%;
+    width: 50%;
+    /* background-color: GREY; */
+  }
+  .listoption ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 80%;
+    padding-top: 5vh;
+  }
+  .main {
+    height: 50vh;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15vh;
+  }
+}

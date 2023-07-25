@@ -1,0 +1,45 @@
+.tt span {
+  font-weight: bold;
+  font-size: 25px;
+}
+.tt .col {
+  border-left: 1px solid lightgrey;
+  padding-left: 70px;
+}
+.tt {
+  padding: 20px;
+  background-color: white;
+}
+.tt ion-icon {
+  position: absolute;
+  font-size: 50px;
+  color: #79b9d3;
+  margin-left: -60px;
+}
+.tt h3{
+    font-weight: 900;
+}
+@media only screen and (orientation: portrait) {
+  .tt span {
+    font-weight: bold;
+    font-size: 15px;
+  }
+  .tt .col {
+    border-left: 1px solid lightgrey;
+    padding-left: 70px;
+  }
+  .tt {
+    padding: 20px;
+    background-color: white;
+  }
+  .tt ion-icon {
+    position: absolute;
+    font-size: 50px;
+    color: #79b9d3;
+    margin-left: -60px;
+  }
+  .tt h3{
+      font-weight: 900;
+  }
+ 
+}

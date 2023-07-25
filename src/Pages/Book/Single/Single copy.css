@@ -1,0 +1,33 @@
+/* .mainImg {
+  height: 60vh;
+  background-color: antiquewhite;
+}
+.thabs .intab ul {
+  display: flex;
+  list-style: none;
+  width: 60%;
+  margin: auto;
+}
+.thabs .intab ul li {
+  flex: 1;
+  text-align: left;
+  position: relative;
+  padding-top: 10px;
+}
+.thabs .intab {
+  text-align: center;
+}
+.intab ion-icon {
+  font-size: 15px;
+  color: lightgrey;
+  margin-right: 10px;
+  font-size: 25px;
+  position: absolute;
+  margin-left: -35px;
+}
+.intab {
+  background-color: aliceblue;
+  margin-top: 30px;
+  padding: 15px;
+  border-radius: 10px;
+} */
